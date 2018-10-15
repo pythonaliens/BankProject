@@ -81,7 +81,7 @@ class MainProgram:
                             option = int(input("Choose any one of the options"))
                             if option == 1:
                                 amount = int(input("Enter the amount to Deposit"))
-                                account2.deposit(amount)
+                                account.deposit(amount)
                             if option == 2:
                                 amount = int(input("Enter the amount to Withdraw"))
                                 account.withDraw(amount)
