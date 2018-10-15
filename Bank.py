@@ -75,7 +75,7 @@ class MainProgram:
                 option = int(input("Enter your option"))
                 if option ==1:
                     password = input("Please Enter your password")
-                    if password =="acc":
+                    if password == customerclass.password:
                         while True:
                             print(" 1-Deposit\n 2-Withdraw\n 3-CheckBalance\n 4-Logout")
                             option = int(input("Choose any one of the options"))
@@ -89,7 +89,20 @@ class MainProgram:
                                 account.checkBalance()
                             if option == 4:
                                 break
+                    else:
+                        print("Incorrect password please login again")
                     loop = False
+1
+
+
+
+
+
+
+
+
+
+
 
 
 
